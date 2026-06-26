@@ -19,13 +19,16 @@
         justify-content: space-between;
         gap: 30px;
         flex-wrap: wrap;
-        background-size: cover;
-        background-position: center;
-
+        
         .cat_card{
-            width: 273px;
+            width: 253px;
             height: 180px;
             position: relative;
+
+            .category_card_img{
+                object-fit: cover;
+                transition: tranform 0.3s ease;
+            }
 
             &::after{
                 content: " ";
