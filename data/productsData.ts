@@ -1,6 +1,6 @@
-import { Icategory, IProduct, Iproduct } from "@/interfaces/product";
+import { ICategory, IProduct } from "@/interfaces/products";
 
-export const categories: Icategory[] = [
+export const categories: ICategory[] = [
     {
       id: 1,
       name: "Electronics",
@@ -27,18 +27,18 @@ export const categories: Icategory[] = [
     },
   ];
 
-  export const products: Iproduct[] = [
+  export const products: IProduct[] = [
     {
       id: 1,
       title: "premium noise-cancelling headphones",
       category: "Electronics",
-      price: 189.99,
+      price:189.99,
       oldPrice: 249.99,
       rating: 4.8,
       reviews: 124,
-      badge: "SALE",
+      badge:"SALE",
       image:
-        "https://images.unsplash.com/photo-1512499617640-c2f999018b72?auto=format&fit=crop&w=400&q=80",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80",
     },
     {
     id: 2,
@@ -71,5 +71,5 @@ export const categories: Icategory[] = [
     reviews: 47,
     image:
       "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80",
-  }
-  ];
+  },
+]

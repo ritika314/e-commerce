@@ -1,17 +1,16 @@
-
-import CartSection from '@/components/cartComponents/CartSection'
+import CartSection from '@/components/cartComponents/CartSection';
 import Footer from '@/components/layouts/Footer'
-import Header from '@/components/layouts/Header'
+import Header from '@/components/layouts/Header';
 import React from 'react'
 
-const page: React.FC = () => {
-  return (
-    <>
-    <Header />
+const page : React.FC = () => {
+  return(
+     <>
+  <Header />
     <CartSection />
-    <Footer />   
-    </>
-  )
-}
+  <Footer />
+  </> 
+  );
+};
 
-export default page
+export default page;
